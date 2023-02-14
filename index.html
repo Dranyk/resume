@@ -1,159 +1,286 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-   
-    <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
     <!-- Main section -->
     <div class="main-secion">
-        <div>
+      <div>
         <!-- Main content section-->
         <div class="main-content">
-            <!-- About me section -->
-            <div class="about-me">
-                <h2 class="about-me-profession">Front-End Developer</h2>
-                <h1 class="about-me-name">Dranyk Darya</h1>
+          <!-- About me section -->
+          <div class="about-me">
+            <h2 class="about-me-profession">Front-End Developer</h2>
+            <h1 class="about-me-name">Dranyk Daria</h1>
 
-                <p class="about-me-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            <p class="about-me-description">
+              I study HTML, CSS, JS, React. At the moment, I work in another
+              field, but I am interested in transitioning to IT. I can google
+              and use a translator. English is at an intermediate level, but I
+              continue to learn it. I was a team leader on two team projects: “
+              Ice-cream” and “Filmoteka”.
+            </p>
+          </div>
+
+          <!-- My projects section-->
+          <div class="my-projects">
+            <h3 class="main-content-title">Projects</h3>
+
+            <ol class="my-projects-list">
+              <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    href="https://dranyk.github.io/goit-markup-hw-08/"
+                    class="my-projects-link"
+                    >My first project</a
+                  >
+                  .......
+                  <span class="my-projects-bracket">[</span> HTML5, SASS
+                  <span class="my-projects-bracket">]</span>
+                </span>
+                <p>My first website with a responsive layout.</p>
+              </li>
+
+              <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    href="https://dranyk.github.io/ice-cream/"
+                    class="my-projects-link"
+                    >Team Project "Ice-Cream"</a
+                  >
+                  .......
+                  <span class="my-projects-bracket">[</span> HTML5, SASS, JS,
+                  Parcel
+                  <span class="my-projects-bracket">]</span>
+                </span>
+                <p>
+                  A website with a responsive layout. Role: Team Lead. Build
+                  project on github, check for build errors and live page
+                  performance.
+                </p>
+              </li>
+
+              <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    href="https://dranyk.github.io/js-project-5/"
+                    class="my-projects-link"
+                    >Team Project "Filmoteka"
+                  </a>
+                  .........
+                  <span class="my-projects-bracket">[</span> HTML, SASS,
+                  JavaScript, REST API, Parcel
+                  <span class="my-projects-bracket">]</span>
+                </span>
+                <p>
+                  Application for choosing a movie. Role: Team Lead. Build
+                  project on github, check for build errors and live page
+                  performance. App component with Public and Private routes,
+                  AuthPage page logic.
+                </p>
+              </li>
+
+              <!-- <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    href="https://kidslike.goit.global/"
+                    class="my-projects-link"
+                    >https://kidslike.goit.global/</a
+                  >
+                  ...............
+                  <span class="my-projects-bracket">[</span> React.js, Node.js
+                  <span class="my-projects-bracket">]</span>
+                </span>
+              </li> -->
+            </ol>
+          </div>
+
+          <!-- My work expiriense-->
+          <div class="my-work-expiriense">
+            <h3 class="main-content-title">Work Experience</h3>
+            <!-- Company 2-->
+            <div class="my-work-expiriense-company-block">
+              <h4 class="my-work-expiriense-position">
+                Manager of the delivery department
+                <span class="my-work-expiriense-company">Agromat</span>
+              </h4>
+              <p class="my-work-expiriense-period">
+                July 2020 - up to now
+                <span class="my-work-expiriense-devider">|</span> Ukraine, Kyiv
+              </p>
+              <ul class="my-work-expiriense-duties">
+                <li class="my-work-expiriense-duty">
+                  Creation of delivery requests
+                </li>
+                <li class="my-work-expiriense-duty">Route planning</li>
+                <li class="my-work-expiriense-duty">
+                  Creation of accompanying documentation
+                </li>
+                <li class="my-work-expiriense-duty">Work with waybills</li>
+              </ul>
             </div>
-        
-            <!-- My projects section-->
-                <div class="my-projects">
-                    <h3 class="main-content-title">Projects</h3>
-
-                    <ol class="my-projects-list">
-                        <li class="my-projects-item">
-                            <span class="my-projects-text">
-                                <a href="https://dranyk.github.io/goit-markup-hw-08/" class="my-projects-link">My first project</a>
-                                .......
-                                <span class="my-projects-bracket">[</span> HTML5, CSS3 <span class="my-projects-bracket">]</span>
-                            </span>
-                        </li>
-                        
-                        <li class="my-projects-item">
-                            <span class="my-projects-text">
-                                <a href="https://cryptohub.goit.global/" class="my-projects-link">https://cryptohub.goit.global/</a>
-                                ......... 
-                                <span class="my-projects-bracket">[</span> JavaScript <span class="my-projects-bracket">]</span>
-                            </span>
-                        </li>
-                            
-                        <li class="my-projects-item">
-                            <span class="my-projects-text">
-                                <a href="https://kidslike.goit.global/" class="my-projects-link">https://kidslike.goit.global/</a>
-                                ...............  
-                                <span class="my-projects-bracket">[</span> React.js, Node.js <span class="my-projects-bracket">]</span>
-                            </span>
-                        </li>
-                    </ol> 
-                </div>
-            
-            <!-- My work expiriense-->
-            <div class="my-work-expiriense">
-                <h3 class="main-content-title">Work Experience</h3>
-                    <!-- Company 3-->
-                <div class="my-work-expiriense-company-block">
-                    <h4 class="my-work-expiriense-position">Front-End Developer <span class="my-work-expiriense-company">Freelance</span></h4>
-                    <p class="my-work-expiriense-period">September 2019 - up to now   <span class="my-work-expiriense-devider">|</span>   Country</p>
-                    <ul class="my-work-expiriense-duties">
-                        <li class="my-work-expiriense-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                        <li class="my-work-expiriense-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="my-work-expiriense-duty">Risus commodo viverra maecenas.</li>
-                        <li class="my-work-expiriense-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
-                        
-                    </ul>
-                </div>
-                    <!-- Company 2-->
-                <div>
-                    <h4 class="my-work-expiriense-position">Manager <span class="my-work-expiriense-company">Roga & Kopyta New</span></h4>
-                    <p class="my-work-expiriense-period">March 2015 - October 2018  <span class="my-work-expiriense-devider">|</span>  Country</p>
-                    <ul class="my-work-expiriense-duties">
-                        <li class="my-work-expiriense-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
-                        <li class="my-work-expiriense-duty">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="my-work-expiriense-duty">Risus commodo viverra maecenas. </li>
-                                        
-                    </ul>
-                </div>
-                    <!-- Company 1-->
-                    <div>
-                        <h4 class="my-work-expiriense-position">Manager <span class="my-work-expiriense-company">Roga & Kopyta LLC</span></h4>
-                        <p class="my-work-expiriense-period">June 2014 - February 2015   <span class="my-work-expiriense-devider">|</span>   Country</p>
-                        <ul class="my-work-expiriense-duties">
-                            <li class="my-work-expiriense-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                            <li class="my-work-expiriense-duty">Quis ipsum suspendisse ultrices gravida.</li>
-                            <li class="my-work-expiriense-duty">Risus commodo viverra maecenas. </li>
-                            
-                        </ul>
-                    </div>
+            <!-- Company 1-->
+            <div>
+              <h4 class="my-work-expiriense-position">
+                Administrator
+                <span class="my-work-expiriense-company"
+                  >Tanning studio Carramel</span
+                >
+              </h4>
+              <p class="my-work-expiriense-period">
+                September 2018 - September 2019
+                <span class="my-work-expiriense-devider">|</span> Ukraine, Kyiv
+              </p>
+              <ul class="my-work-expiriense-duties">
+                <li class="my-work-expiriense-duty">
+                  Communication with clients
+                </li>
+                <li class="my-work-expiriense-duty">
+                  Fulfillment of administrative obligations
+                </li>
+                <li class="my-work-expiriense-duty">
+                  Providing quality service
+                </li>
+                <li class="my-work-expiriense-duty">Sale of related goods</li>
+              </ul>
             </div>
-            <!-- My education-->
-            <div class="my-education">
-                <h3 class="main-content-title">Education</h3>
-                <h4 class="University">Borys Grinchenko Kyiv University</h4>
-                <h4 class="speciality">Management | master</h4>
-                <p class="education-period">September 2014 - Desember 2019   <span class="my-edication-devider">|</span>   Ukraine</p>
+          </div>
+          <!-- My education-->
+          <div class="my-education">
+            <h3 class="main-content-title">Education</h3>
+            <h4 class="University">Borys Grinchenko Kyiv University</h4>
+            <h4 class="speciality">Management | master</h4>
+            <p class="education-period">
+              September 2014 - Desember 2019
+              <span class="my-edication-devider">|</span> Ukraine, Kyiv
+            </p>
 
-                <h4 class="University">courses GoIT</h4>
-                <h4 class="speciality">Front-End Developer</h4>
-                <p class="education-period">Desember 2021 - Now   <span class="my-edication-devider">|</span>   Ukraine</p>
-
-            </div>
+            <h4 class="University">IT School GoIT (Kyiv)</h4>
+            <h4 class="speciality">
+              Front-End Developer | Fullstack Developer
+            </h4>
+            <p class="education-period">
+              Desember 2021 - Now
+              <span class="my-edication-devider">|</span> Ukraine, Kyiv
+            </p>
+          </div>
         </div>
-        </div>
-    
-   <!-- Sidebar section-->   
-
-<aside class="sidebar">
-    <img src="./images/my_photo.jpg" alt="My photo">
-
-    <!--Contact section-->
-    <div class="contact">
-        <h3 class="sidebar-title">Contacts</h3>
-        <div>
-           <span class="contact-type">C:</span>
-          <a class="contact-link" href="tel:+380666884485">+380666884485</a>
-        </div>
-        <div>
-            <span class="contact-type">E:</span>
-            <a class="contact-link" href="mailto:dvdranyk@gmail.com">dvdranyk@gmail.com</a>
-        </div>
-    </div>
-
-     <!--Tech skills section-->
-     <div class="tech-skills">
-        <h3 class="sidebar-title">Tech Skills</h3>
-            <ul class="tech-skills-list">
-                <li class="tech-skills-item"> <span class="tech-skills-item-text">HTML5</span> </li>
-                <li class="tech-skills-item"> <span class="tech-skills-item-text">CSS3</span></li>
-                <li class="tech-skills-item"> <span class="tech-skills-item-text">GIT</span></li>
-                <li class="tech-skills-item"> <span class="tech-skills-item-text">WebPack</span></li>
-                <li class="tech-skills-item"> <span class="tech-skills-item-text">JavaScript</span></li>
-                <li class="tech-skills-item"> <span class="tech-skills-item-text">React.js</span></li>
-                <li class="tech-skills-item"> <span class="tech-skills-item-text">Node.js</span></li>
-            </ul>
-     </div>
-
-      <!--Soft Skills section-->
-      <div class="soft-skills">
-        <h3 class="sidebar-title">Soft Skills</h3>
-            <ul class="soft-skills-list">
-                <li class="soft-skills-item"> <span class="soft-skills-item-text">Scrum</span></li>
-                <li class="soft-skills-item"> <span class="soft-skills-item-text">Agile</span></li>
-                <li class="soft-skills-item"> <span class="soft-skills-item-text">GTD</span></li>
-                <li class="soft-skills-item"> <span class="soft-skills-item-text">Teamwork</span></li>
-            </ul>
       </div>
-</aside>
-</div>
-    
 
-</body>
+      <!-- Sidebar section-->
+
+      <aside class="sidebar">
+        <img src="./images/photo.jpg" alt="My photo" />
+
+        <!--Contact section-->
+        <div class="contact">
+          <h3 class="sidebar-title">Contacts</h3>
+          <div>
+            <span class="contact-type">C:</span>
+            <a class="contact-link" href="tel:+380666884485">+380666884485</a>
+          </div>
+          <div>
+            <span class="contact-type">E:</span>
+            <a class="contact-link" href="mailto:dvdranyk@gmail.com"
+              >dvdranyk@gmail.com</a
+            >
+          </div>
+          <div>
+            <span class="contact-type">L:</span>
+            <a
+              class="contact-link"
+              href="https://www.linkedin.com/in/daria-dranyk"
+              >Linkedin</a
+            >
+          </div>
+          <div>
+            <p
+              class="contact-link"
+            >
+            Kyiv, Ukraine
+            </p>
+          </div>
+        </div>
+
+        <!--Tech skills section-->
+        <div class="tech-skills">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">HTML5 | CSS3 | SASS </span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text"
+                >Responsive/adaptive layout</span
+              >
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">GIT | GitHub</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">WebPack | Parcel</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">JavaScript</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">React.js</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">Node.js</span>
+            </li>
+          </ul>
+        </div>
+
+        <!--Soft Skills section-->
+        <div class="soft-skills">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="soft-skills-list">
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">Scrum</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">Agile</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">Attention to detail</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">Teamwork</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">Good communication</span>
+            </li>
+          </ul>
+        </div>
+
+        <!--Languages section-->
+        <div class="languages">
+          <h3 class="sidebar-title">Languages</h3>
+          <ul class="languages-list">
+            <li class="languages-item">
+              <span class="languages-item-text">English - Intermediate</span>
+            </li>
+            <li class="languages-item">
+              <span class="languages-item-text">Ukrainian - Native</span>
+            </li>
+            <li class="languages-item">
+              <span class="languages-item-text">Russian - Native</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>

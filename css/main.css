@@ -98,6 +98,11 @@ img {
   color: black;
 }
 
+.my-projects-item > p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
 .my-work-expiriense-company-block {
   margin: 0 0 15px 0;
 }
@@ -111,7 +116,7 @@ img {
 }
 
 .my-work-expiriense-company {
-  color: #FB6D3A;
+  color: #33a5bf;
 }
 
 .my-work-expiriense-period {
@@ -148,7 +153,7 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #FB6D3A;
+  color: #33a5bf;
   margin-bottom: 10px;
 }
 
@@ -179,7 +184,7 @@ img {
 }
 
 .sidebar {
-  background-color: #1E2939;
+  background-color: #d2b6dc;
   width: 370px;
   padding: 40px 0;
   color: white;
@@ -221,7 +226,7 @@ img {
 }
 
 .tech-skills-item {
-  color: #FB6D3A;
+  color: #74247b;
 }
 
 .tech-skills-item-text {
@@ -241,10 +246,30 @@ img {
 }
 
 .soft-skills-item {
-  color: #FB6D3A;
+  color: #74247b;
 }
 
 .soft-skills-item-text {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.languages {
+  margin: 45px 0 0 40px;
+}
+
+.languages-list {
+  padding-left: 17px;
+}
+
+.languages-item {
+  color: #74247b;
+}
+
+.languages-item-text {
   color: white;
   font-style: normal;
   font-weight: normal;
