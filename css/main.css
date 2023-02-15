@@ -4,7 +4,7 @@ body {
 }
 
 img {
-  width: 370px;
+  width: 250px;
 }
 
 .main-secion {
@@ -17,13 +17,13 @@ img {
 }
 
 .main-content {
-  padding: 100px 90px;
+  padding: 60px 100px 60px 60px;
 }
 
 .main-content-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 27px;
   color: black;
   margin-bottom: 10px;
@@ -36,7 +36,7 @@ img {
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 25px;
   line-height: 17px;
   color: black;
   margin-bottom: 20px;
@@ -45,7 +45,7 @@ img {
 .about-me-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 25px;
   line-height: 55px;
   color: black;
   margin-bottom: 25px;
@@ -110,19 +110,19 @@ img {
 .my-work-expiriense-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
 }
 
 .my-work-expiriense-company {
-  color: #33a5bf;
+  color: #74247b;
 }
 
 .my-work-expiriense-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 10px;
@@ -131,7 +131,7 @@ img {
 .my-work-expiriense-devider {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: black;
 }
@@ -151,9 +151,9 @@ img {
 .University {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
-  color: #33a5bf;
+  color: #74247b;
   margin-bottom: 10px;
 }
 
@@ -169,7 +169,7 @@ img {
 .education-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 10px;
@@ -178,7 +178,7 @@ img {
 .my-edication-devider {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: black;
 }
@@ -191,17 +191,23 @@ img {
 }
 
 .contact,
-.tech-skills {
-  margin: 50px 0 0 40px;
+.tech-skills,
+.soft-skills,
+.languages {
+  margin: 50px 0 0 30px;
 }
 
 .sidebar-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 27px;
   color: white;
   margin-bottom: 10px;
+}
+
+.contact {
+  font-size: 14px;
 }
 
 .contact-type {
@@ -218,7 +224,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #575F6B;
+  color: white;
 }
 
 .tech-skills-list {
@@ -237,10 +243,6 @@ img {
   line-height: 24px;
 }
 
-.soft-skills {
-  margin: 45px 0 0 40px;
-}
-
 .soft-skills-list {
   padding-left: 17px;
 }
@@ -255,10 +257,6 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-}
-
-.languages {
-  margin: 45px 0 0 40px;
 }
 
 .languages-list {
