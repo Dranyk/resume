@@ -45,7 +45,7 @@ img {
 .about-me-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 55px;
   color: black;
   margin-bottom: 25px;
@@ -54,10 +54,9 @@ img {
 .about-me-description {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
-  width: 400px;
 }
 
 .my-projects {
@@ -76,7 +75,7 @@ img {
 .my-projects-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -84,7 +83,7 @@ img {
 .my-projects-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
   margin-left: 5px;
@@ -93,13 +92,13 @@ img {
 .my-projects-bracket {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: black;
 }
 
 .my-projects-item > p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
 }
 
@@ -110,7 +109,7 @@ img {
 .my-work-expiriense-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
 }
@@ -122,7 +121,7 @@ img {
 .my-work-expiriense-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 10px;
@@ -131,7 +130,7 @@ img {
 .my-work-expiriense-devider {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 15px;
   color: black;
 }
@@ -143,7 +142,7 @@ img {
 .my-work-expiriense-duty {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -151,7 +150,7 @@ img {
 .University {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #74247b;
   margin-bottom: 10px;
@@ -160,7 +159,7 @@ img {
 .speciality {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: black;
   margin-bottom: 10px;
@@ -169,7 +168,7 @@ img {
 .education-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 10px;
@@ -178,7 +177,7 @@ img {
 .my-edication-devider {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 15px;
   color: black;
 }
@@ -225,6 +224,8 @@ img {
   font-size: 14px;
   line-height: 24px;
   color: white;
+  padding: 0;
+  margin: 0;
 }
 
 .tech-skills-list {
@@ -239,7 +240,7 @@ img {
   color: white;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -255,7 +256,7 @@ img {
   color: white;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -271,6 +272,6 @@ img {
   color: white;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }/*# sourceMappingURL=main.css.map */
